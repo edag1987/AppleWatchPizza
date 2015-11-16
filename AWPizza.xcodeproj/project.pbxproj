@@ -19,6 +19,14 @@
 		8B354EAF1BF73D5700AEBC63 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B354EAE1BF73D5700AEBC63 /* InterfaceController.swift */; };
 		8B354EB11BF73D5700AEBC63 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B354EB01BF73D5700AEBC63 /* ExtensionDelegate.swift */; };
 		8B354EB31BF73D5700AEBC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B354EB21BF73D5700AEBC63 /* Assets.xcassets */; };
+		8B354EC31BF73DBF00AEBC63 /* Panucci.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B354EC21BF73DBF00AEBC63 /* Panucci.gif */; };
+		8B354EC51BF7418100AEBC63 /* TamañoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B354EC41BF7418100AEBC63 /* TamañoInterfaceController.swift */; };
+		8B354EC71BF7494600AEBC63 /* MasaInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B354EC61BF7494600AEBC63 /* MasaInterfaceController.swift */; };
+		8B354EC91BF7532900AEBC63 /* QuesoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B354EC81BF7532900AEBC63 /* QuesoInterfaceController.swift */; };
+		8B354ECB1BF7659B00AEBC63 /* IngredientesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B354ECA1BF7659B00AEBC63 /* IngredientesInterfaceController.swift */; };
+		8B354ECD1BF8950A00AEBC63 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B354ECC1BF8950A00AEBC63 /* Datos.swift */; };
+		8B3DDF6B1BF8D78E0072EABC /* ConfirmarInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DDF6A1BF8D78E0072EABC /* ConfirmarInterfaceController.swift */; };
+		8B3DDF6D1BF8DFFF0072EABC /* Panuccipizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3DDF6C1BF8DFFF0072EABC /* Panuccipizza.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +88,14 @@
 		8B354EB01BF73D5700AEBC63 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		8B354EB21BF73D5700AEBC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B354EB41BF73D5700AEBC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B354EC21BF73DBF00AEBC63 /* Panucci.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Panucci.gif; sourceTree = "<group>"; };
+		8B354EC41BF7418100AEBC63 /* TamañoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TamañoInterfaceController.swift"; sourceTree = "<group>"; };
+		8B354EC61BF7494600AEBC63 /* MasaInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaInterfaceController.swift; sourceTree = "<group>"; };
+		8B354EC81BF7532900AEBC63 /* QuesoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoInterfaceController.swift; sourceTree = "<group>"; };
+		8B354ECA1BF7659B00AEBC63 /* IngredientesInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesInterfaceController.swift; sourceTree = "<group>"; };
+		8B354ECC1BF8950A00AEBC63 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		8B3DDF6A1BF8D78E0072EABC /* ConfirmarInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmarInterfaceController.swift; sourceTree = "<group>"; };
+		8B3DDF6C1BF8DFFF0072EABC /* Panuccipizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Panuccipizza.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +154,8 @@
 			children = (
 				8B354E9F1BF73D5700AEBC63 /* Interface.storyboard */,
 				8B354EA21BF73D5700AEBC63 /* Assets.xcassets */,
+				8B354EC21BF73DBF00AEBC63 /* Panucci.gif */,
+				8B3DDF6C1BF8DFFF0072EABC /* Panuccipizza.png */,
 				8B354EA41BF73D5700AEBC63 /* Info.plist */,
 			);
 			path = "AWPizza WatchKit App";
@@ -147,9 +165,15 @@
 			isa = PBXGroup;
 			children = (
 				8B354EAE1BF73D5700AEBC63 /* InterfaceController.swift */,
+				8B354EC41BF7418100AEBC63 /* TamañoInterfaceController.swift */,
+				8B354EC61BF7494600AEBC63 /* MasaInterfaceController.swift */,
+				8B354EC81BF7532900AEBC63 /* QuesoInterfaceController.swift */,
+				8B354ECA1BF7659B00AEBC63 /* IngredientesInterfaceController.swift */,
+				8B3DDF6A1BF8D78E0072EABC /* ConfirmarInterfaceController.swift */,
 				8B354EB01BF73D5700AEBC63 /* ExtensionDelegate.swift */,
 				8B354EB21BF73D5700AEBC63 /* Assets.xcassets */,
 				8B354EB41BF73D5700AEBC63 /* Info.plist */,
+				8B354ECC1BF8950A00AEBC63 /* Datos.swift */,
 			);
 			path = "AWPizza WatchKit Extension";
 			sourceTree = "<group>";
@@ -269,6 +293,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3DDF6D1BF8DFFF0072EABC /* Panuccipizza.png in Resources */,
+				8B354EC31BF73DBF00AEBC63 /* Panucci.gif in Resources */,
 				8B354EA31BF73D5700AEBC63 /* Assets.xcassets in Resources */,
 				8B354EA11BF73D5700AEBC63 /* Interface.storyboard in Resources */,
 			);
@@ -298,8 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B354ECB1BF7659B00AEBC63 /* IngredientesInterfaceController.swift in Sources */,
+				8B354EC91BF7532900AEBC63 /* QuesoInterfaceController.swift in Sources */,
+				8B354EC51BF7418100AEBC63 /* TamañoInterfaceController.swift in Sources */,
 				8B354EB11BF73D5700AEBC63 /* ExtensionDelegate.swift in Sources */,
+				8B354ECD1BF8950A00AEBC63 /* Datos.swift in Sources */,
 				8B354EAF1BF73D5700AEBC63 /* InterfaceController.swift in Sources */,
+				8B354EC71BF7494600AEBC63 /* MasaInterfaceController.swift in Sources */,
+				8B3DDF6B1BF8D78E0072EABC /* ConfirmarInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +560,7 @@
 				8B354EB91BF73D5700AEBC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B354EBB1BF73D5700AEBC63 /* Build configuration list for PBXNativeTarget "AWPizza WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +569,7 @@
 				8B354EBD1BF73D5700AEBC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B354EBF1BF73D5700AEBC63 /* Build configuration list for PBXNativeTarget "AWPizza" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +578,7 @@
 				8B354EC11BF73D5700AEBC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
